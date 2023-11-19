@@ -3,11 +3,14 @@
 # abort on errors
 set -e
 
+cd server 
+npm start 
+
 # build
 npm run build
 
 # navigate into the build output directory
-cd dist
+cd shop
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
