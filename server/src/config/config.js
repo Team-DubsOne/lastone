@@ -12,3 +12,8 @@ module.exports = {
         jwtSecret : process.env.JWT_SECRET || 'secret'
     }
 }
+module.exports = {
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/lastone/'
+      : '/'
+  }
