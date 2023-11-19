@@ -113,7 +113,7 @@
 <script>
 import { loadStripe } from "@stripe/stripe-js";
 const stripeInit = loadStripe(
-  "pk_test_51I4mbiGV3mLAYJeQ13BCPtt0b0DWMHAJALhdOaAVp2sA5P0WgjPcH21Ziw8fQpbBn8kZsNgT513t7htPCDlwnfzh00gkYylUV1"
+  "pk_test_51OAcqLDnCAH5LiUtbb2wpNuFPlGe9Q0ubeTzww7LGWu5ujhN137jagm2cpqmkI6quwhAsvW1Dk2Vwl8yWfYE4Cle00BfgH4Zmn"
 );
 import CheckoutService from "@/services/CheckoutService.js";
 
